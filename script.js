@@ -106,7 +106,7 @@ class Calculator {
     }
 
     processEqualOperation() {
-        const operation = previousOperationText.innerText.spli(" ")[1];
+        const operation = previousOperationText.innerText.split(" ")[1];
         this.processOperation(operation);
     }
 }
